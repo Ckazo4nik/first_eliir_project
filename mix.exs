@@ -41,7 +41,8 @@ defmodule Pxblog.Mixfile do
       {:phoenix_live_reload, "~> 1.0", only: :dev},
       {:gettext, "~> 0.11"},
       {:cowboy, "~> 1.0"},
-	    {:comeonin, "~> 2.3"}
+	    {:comeonin, "~> 2.3"},
+	    {:earmark, "~> 1.0.1"}
     ]
   end
 

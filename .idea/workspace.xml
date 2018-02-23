@@ -7,11 +7,16 @@
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/02a27077-6708-43df-897a-d1937b8195bd.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/02a27077-6708-43df-897a-d1937b8195bd.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/02a27077-6708-43df-897a-d1937b8195bd/storage_v2/_src_/database/pxblog_dev.AMjLOA/schema/public.abK9xQ.meta" afterPath="$PROJECT_DIR$/.idea/dataSources/02a27077-6708-43df-897a-d1937b8195bd/storage_v2/_src_/database/pxblog_dev.AMjLOA/schema/public.abK9xQ.meta" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/mix.exs" afterPath="$PROJECT_DIR$/mix.exs" />
+      <change beforePath="$PROJECT_DIR$/mix.lock" afterPath="$PROJECT_DIR$/mix.lock" />
       <change beforePath="$PROJECT_DIR$/priv/repo/seeds.exs" afterPath="$PROJECT_DIR$/priv/repo/seeds.exs" />
       <change beforePath="$PROJECT_DIR$/web/controllers/post_controller.ex" afterPath="$PROJECT_DIR$/web/controllers/post_controller.ex" />
       <change beforePath="$PROJECT_DIR$/web/controllers/session_controller.ex" afterPath="$PROJECT_DIR$/web/controllers/session_controller.ex" />
       <change beforePath="$PROJECT_DIR$/web/controllers/user_controller.ex" afterPath="$PROJECT_DIR$/web/controllers/user_controller.ex" />
+      <change beforePath="$PROJECT_DIR$/web/models/post.ex" afterPath="$PROJECT_DIR$/web/models/post.ex" />
       <change beforePath="$PROJECT_DIR$/web/models/user.ex" afterPath="$PROJECT_DIR$/web/models/user.ex" />
+      <change beforePath="$PROJECT_DIR$/web/templates/post/form.html.eex" afterPath="$PROJECT_DIR$/web/templates/post/form.html.eex" />
+      <change beforePath="$PROJECT_DIR$/web/templates/post/show.html.eex" afterPath="$PROJECT_DIR$/web/templates/post/show.html.eex" />
       <change beforePath="$PROJECT_DIR$/web/templates/user/edit.html.eex" afterPath="$PROJECT_DIR$/web/templates/user/edit.html.eex" />
       <change beforePath="$PROJECT_DIR$/web/templates/user/form.html.eex" afterPath="$PROJECT_DIR$/web/templates/user/form.html.eex" />
       <change beforePath="$PROJECT_DIR$/web/templates/user/new.html.eex" afterPath="$PROJECT_DIR$/web/templates/user/new.html.eex" />
@@ -70,16 +75,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="session_controller.ex" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/controllers/session_controller.ex">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="35" column="5" lean-forward="false" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="user_view.ex" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/views/user_view.ex">
           <provider selected="true" editor-type-id="text-editor">
@@ -90,11 +85,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="roles" pinned="false" current-in-tab="true">
+      <file leaf-file-name="roles" pinned="false" current-in-tab="false">
         <entry file="das://table:/3325635b/02a27077-6708-43df-897a-d1937b8195bd/pxblog_dev.public.roles">
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
             <state>
               <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mix.exs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mix.exs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="393">
+              <caret line="44" column="28" lean-forward="false" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -122,38 +127,38 @@
       <file leaf-file-name="post_view.ex" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/views/post_view.ex">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state relative-caret-position="126">
+              <caret line="7" column="5" lean-forward="false" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="new.html.eex" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/templates/user/new.html.eex">
+      <file leaf-file-name="post.ex" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/models/post.ex">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="28" lean-forward="false" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+            <state relative-caret-position="472">
+              <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="edit.html.eex" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/templates/user/edit.html.eex">
+      <file leaf-file-name="form.html.eex" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/templates/post/form.html.eex">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="26" lean-forward="false" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+            <state relative-caret-position="450">
+              <caret line="25" column="49" lean-forward="false" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user_controller.ex" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/controllers/user_controller.ex">
+      <file leaf-file-name="show.html.eex" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/templates/post/show.html.eex">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="515">
-              <caret line="59" column="5" lean-forward="false" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
+            <state relative-caret-position="144">
+              <caret line="8" column="31" lean-forward="false" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -194,7 +199,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/test/models/user_test.exs" />
-        <option value="$PROJECT_DIR$/mix.exs" />
         <option value="$PROJECT_DIR$/web/views/session_view.ex" />
         <option value="$PROJECT_DIR$/config/dev.exs" />
         <option value="$PROJECT_DIR$/web/templates/session/_form.html.eex" />
@@ -202,12 +206,10 @@
         <option value="$PROJECT_DIR$/web/templates/layout/app.html.eex" />
         <option value="$PROJECT_DIR$/web/router.ex" />
         <option value="$PROJECT_DIR$/web/templates/post/index.html.eex" />
-        <option value="$PROJECT_DIR$/web/templates/post/show.html.eex" />
         <option value="$PROJECT_DIR$/web/templates/post/new.html.eex" />
         <option value="$PROJECT_DIR$/web/templates/post/edit.html.eex" />
         <option value="$PROJECT_DIR$/.iex.exs" />
         <option value="$PROJECT_DIR$/priv/repo/migrations/20180223093707_add_user_id_to_posts.exs" />
-        <option value="$PROJECT_DIR$/web/models/post.ex" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/web/models/role.ex" />
         <option value="$PROJECT_DIR$/priv/repo/migrations/20180223101728_add_role_id_to_users.exs" />
@@ -221,8 +223,12 @@
         <option value="$PROJECT_DIR$/web/templates/user/form.html.eex" />
         <option value="$PROJECT_DIR$/web/controllers/post_controller.ex" />
         <option value="$PROJECT_DIR$/web/views/layout_view.ex" />
-        <option value="$PROJECT_DIR$/web/views/post_view.ex" />
         <option value="$PROJECT_DIR$/web/views/user_view.ex" />
+        <option value="$PROJECT_DIR$/mix.exs" />
+        <option value="$PROJECT_DIR$/web/views/post_view.ex" />
+        <option value="$PROJECT_DIR$/web/models/post.ex" />
+        <option value="$PROJECT_DIR$/web/templates/post/form.html.eex" />
+        <option value="$PROJECT_DIR$/web/templates/post/show.html.eex" />
       </list>
     </option>
   </component>
@@ -330,6 +336,13 @@
               <item name="pxblog" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="post" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pxblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pxblog" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="user" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -392,15 +405,16 @@
       <workItem from="1519291934680" duration="36000" />
       <workItem from="1519292000020" duration="4659000" />
       <workItem from="1519298982806" duration="5597000" />
-      <workItem from="1519378192453" duration="4661000" />
+      <workItem from="1519378192453" duration="5532000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14953000" />
+    <option name="totallyTimeSpent" value="15824000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1415" y="-4" width="1871" height="1084" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18211739" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -410,7 +424,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33333334" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33333334" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -435,14 +449,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/controllers/post_controller.ex">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/router.ex">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -507,6 +513,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="840">
           <caret line="42" column="26" lean-forward="false" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -549,13 +556,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="5" column="123" lean-forward="false" selection-start-line="5" selection-start-column="123" selection-end-line="5" selection-end-column="123" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mix.exs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="42" column="26" lean-forward="false" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -635,14 +635,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/templates/post/show.html.eex">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="60" lean-forward="false" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/templates/post/new.html.eex">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -679,14 +671,6 @@
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/models/post.ex">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -794,14 +778,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/views/post_view.ex">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/views/user_view.ex">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -814,6 +790,46 @@
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mix.exs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="44" column="28" lean-forward="false" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/views/post_view.ex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="5" lean-forward="false" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/models/post.ex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/templates/post/form.html.eex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="25" column="49" lean-forward="false" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/templates/post/show.html.eex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="31" lean-forward="false" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>
