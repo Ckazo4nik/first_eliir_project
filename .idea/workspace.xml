@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95d7629a-f836-47c1-ae73-567fbb06bda7" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/controllers/comment_controller.ex" />
       <change beforePath="" afterPath="$PROJECT_DIR$/web/models/role_checker.ex" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/templates/comment/comment.html.eex" />
       <change beforePath="" afterPath="$PROJECT_DIR$/web/templates/comment/form.html.eex" />
       <change beforePath="" afterPath="$PROJECT_DIR$/web/views/comment_view.ex" />
       <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
@@ -14,12 +12,14 @@
       <change beforePath="$PROJECT_DIR$/mix.exs" afterPath="$PROJECT_DIR$/mix.exs" />
       <change beforePath="$PROJECT_DIR$/mix.lock" afterPath="$PROJECT_DIR$/mix.lock" />
       <change beforePath="$PROJECT_DIR$/priv/repo/seeds.exs" afterPath="$PROJECT_DIR$/priv/repo/seeds.exs" />
+      <change beforePath="$PROJECT_DIR$/web/controllers/comment_controller.ex" afterPath="$PROJECT_DIR$/web/controllers/comment_controller.ex" />
       <change beforePath="$PROJECT_DIR$/web/controllers/post_controller.ex" afterPath="$PROJECT_DIR$/web/controllers/post_controller.ex" />
       <change beforePath="$PROJECT_DIR$/web/controllers/session_controller.ex" afterPath="$PROJECT_DIR$/web/controllers/session_controller.ex" />
       <change beforePath="$PROJECT_DIR$/web/controllers/user_controller.ex" afterPath="$PROJECT_DIR$/web/controllers/user_controller.ex" />
       <change beforePath="$PROJECT_DIR$/web/models/post.ex" afterPath="$PROJECT_DIR$/web/models/post.ex" />
       <change beforePath="$PROJECT_DIR$/web/models/user.ex" afterPath="$PROJECT_DIR$/web/models/user.ex" />
       <change beforePath="$PROJECT_DIR$/web/router.ex" afterPath="$PROJECT_DIR$/web/router.ex" />
+      <change beforePath="$PROJECT_DIR$/web/templates/comment/comment.html.eex" afterPath="$PROJECT_DIR$/web/templates/comment/comment.html.eex" />
       <change beforePath="$PROJECT_DIR$/web/templates/post/form.html.eex" afterPath="$PROJECT_DIR$/web/templates/post/form.html.eex" />
       <change beforePath="$PROJECT_DIR$/web/templates/post/show.html.eex" afterPath="$PROJECT_DIR$/web/templates/post/show.html.eex" />
       <change beforePath="$PROJECT_DIR$/web/templates/user/edit.html.eex" afterPath="$PROJECT_DIR$/web/templates/user/edit.html.eex" />
@@ -83,7 +83,7 @@
       <file leaf-file-name="post.ex" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/models/post.ex">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
+            <state relative-caret-position="-9">
               <caret line="8" column="38" lean-forward="false" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
               <folding />
             </state>
@@ -93,7 +93,7 @@
       <file leaf-file-name="new.html.eex" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/templates/user/new.html.eex">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
+            <state relative-caret-position="132">
               <caret line="6" column="28" lean-forward="false" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
               <folding />
             </state>
@@ -103,18 +103,28 @@
       <file leaf-file-name="router.ex" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/router.ex">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
+            <state relative-caret-position="228">
               <caret line="22" column="7" lean-forward="false" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="comment_controller.ex" pinned="false" current-in-tab="false">
+      <file leaf-file-name="comment_controller.ex" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/controllers/comment_controller.ex">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="23" column="5" lean-forward="false" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+            <state relative-caret-position="176">
+              <caret line="8" column="69" lean-forward="false" selection-start-line="8" selection-start-column="69" selection-end-line="8" selection-end-column="69" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="form.html.eex" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/templates/post/form.html.eex">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="477">
+              <caret line="25" column="49" lean-forward="false" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -123,8 +133,8 @@
       <file leaf-file-name="comment.html.eex" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/templates/comment/comment.html.eex">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="20" column="6" lean-forward="false" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+            <state relative-caret-position="264">
+              <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -133,18 +143,18 @@
       <file leaf-file-name="form.html.eex" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/templates/comment/form.html.eex">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+            <state relative-caret-position="352">
+              <caret line="16" column="26" lean-forward="false" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.html.eex" pinned="false" current-in-tab="true">
+      <file leaf-file-name="show.html.eex" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/templates/post/show.html.eex">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="18" column="6" lean-forward="false" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+            <state relative-caret-position="-8">
+              <caret line="23" column="11" lean-forward="false" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -153,7 +163,7 @@
       <file leaf-file-name="comment_view.ex" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/views/comment_view.ex">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
+            <state relative-caret-position="-9">
               <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
@@ -163,8 +173,8 @@
       <file leaf-file-name="post_controller.ex" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/controllers/post_controller.ex">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="38" column="37" lean-forward="false" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
+            <state relative-caret-position="-9">
+              <caret line="111" column="5" lean-forward="false" selection-start-line="111" selection-start-column="5" selection-end-line="111" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -186,6 +196,7 @@
       <find>import Comeonin.Bcypt, only: [checkpw: 2]</find>
       <find>scrub</find>
       <find>auth</find>
+      <find>is_au</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -225,10 +236,10 @@
         <option value="$PROJECT_DIR$/web/router.ex" />
         <option value="$PROJECT_DIR$/web/views/comment_view.ex" />
         <option value="$PROJECT_DIR$/web/templates/comment/form.html.eex" />
-        <option value="$PROJECT_DIR$/web/controllers/comment_controller.ex" />
-        <option value="$PROJECT_DIR$/web/templates/comment/comment.html.eex" />
         <option value="$PROJECT_DIR$/web/controllers/post_controller.ex" />
         <option value="$PROJECT_DIR$/web/templates/post/show.html.eex" />
+        <option value="$PROJECT_DIR$/web/templates/comment/comment.html.eex" />
+        <option value="$PROJECT_DIR$/web/controllers/comment_controller.ex" />
       </list>
     </option>
   </component>
@@ -335,7 +346,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/bin/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -382,12 +393,12 @@
       <workItem from="1519291934680" duration="36000" />
       <workItem from="1519292000020" duration="4659000" />
       <workItem from="1519298982806" duration="5597000" />
-      <workItem from="1519378192453" duration="6539000" />
+      <workItem from="1519378192453" duration="7976000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16831000" />
+    <option name="totallyTimeSpent" value="18268000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1415" y="-4" width="1871" height="1084" extended-state="6" />
@@ -397,7 +408,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35655513" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35655513" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -700,14 +711,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/templates/post/form.html.eex">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="25" column="49" lean-forward="false" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/models/comment.ex">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -742,72 +745,80 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/models/post.ex">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
+        <state relative-caret-position="-9">
           <caret line="8" column="38" lean-forward="false" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/templates/user/new.html.eex">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="28" lean-forward="false" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/views/comment_view.ex">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
+        <state relative-caret-position="-9">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/controllers/comment_controller.ex">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="5" lean-forward="false" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/controllers/post_controller.ex">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="38" column="37" lean-forward="false" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/router.ex">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="22" column="7" lean-forward="false" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/templates/comment/form.html.eex">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/templates/comment/comment.html.eex">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="6" lean-forward="false" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+        <state relative-caret-position="-9">
+          <caret line="111" column="5" lean-forward="false" selection-start-line="111" selection-start-column="5" selection-end-line="111" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/templates/post/show.html.eex">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="6" lean-forward="false" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+        <state relative-caret-position="-8">
+          <caret line="23" column="11" lean-forward="false" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/templates/user/new.html.eex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="28" lean-forward="false" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/router.ex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="22" column="7" lean-forward="false" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/templates/post/form.html.eex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="25" column="49" lean-forward="false" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/templates/comment/form.html.eex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="26" lean-forward="false" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/templates/comment/comment.html.eex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/controllers/comment_controller.ex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="69" lean-forward="false" selection-start-line="8" selection-start-column="69" selection-end-line="8" selection-end-column="69" />
           <folding />
         </state>
       </provider>
