@@ -2,89 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95d7629a-f836-47c1-ae73-567fbb06bda7" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/02a27077-6708-43df-897a-d1937b8195bd.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/02a27077-6708-43df-897a-d1937b8195bd/storage_v2/_src_/database/pxblog_dev.AMjLOA.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/02a27077-6708-43df-897a-d1937b8195bd/storage_v2/_src_/database/pxblog_dev.AMjLOA/schema/public.abK9xQ.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/pxblog.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.iex.exs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/brunch-config.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/config.exs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/dev.exs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/prod.exs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/test.exs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/pxblog.ex" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/pxblog/endpoint.ex" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/pxblog/repo.ex" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/mix.exs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/mix.lock" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/package-lock.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/priv/gettext/en/LC_MESSAGES/errors.po" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/priv/gettext/errors.pot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/priv/repo/migrations/20180222102744_create_post.exs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/priv/repo/migrations/20180222103000_create_user.exs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/priv/repo/migrations/20180223093707_add_user_id_to_posts.exs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/priv/repo/seeds.exs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test/controllers/page_controller_test.exs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test/controllers/post_controller_test.exs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test/controllers/user_controller_test.exs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test/models/post_test.exs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test/models/user_test.exs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test/support/channel_case.ex" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test/support/conn_case.ex" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test/support/model_case.ex" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test/test_helper.exs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test/views/error_view_test.exs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test/views/layout_view_test.exs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test/views/page_view_test.exs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/channels/user_socket.ex" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/controllers/page_controller.ex" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/controllers/post_controller.ex" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/controllers/session_controller.ex" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/controllers/user_controller.ex" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/gettext.ex" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/models/post.ex" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/models/user.ex" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/router.ex" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/static/assets/favicon.ico" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/static/assets/images/phoenix.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/static/assets/robots.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/static/css/app.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/static/css/phoenix.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/static/js/app.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/static/js/socket.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/templates/layout/app.html.eex" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/templates/page/index.html.eex" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/templates/post/edit.html.eex" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/templates/post/form.html.eex" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/templates/post/index.html.eex" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/templates/post/new.html.eex" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/templates/post/show.html.eex" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/templates/session/form.html.eex" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/templates/session/new.html.eex" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/templates/user/edit.html.eex" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/templates/user/form.html.eex" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/templates/user/index.html.eex" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/templates/user/new.html.eex" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/templates/user/show.html.eex" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/views/error_helpers.ex" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/views/error_view.ex" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/views/layout_view.ex" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/views/page_view.ex" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/views/post_view.ex" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/views/session_view.ex" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/views/user_view.ex" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/web.ex" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/priv/repo/seeds.exs" afterPath="$PROJECT_DIR$/priv/repo/seeds.exs" />
+      <change beforePath="$PROJECT_DIR$/web/models/user.ex" afterPath="$PROJECT_DIR$/web/models/user.ex" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -167,51 +88,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user.ex" pinned="false" current-in-tab="true">
+      <file leaf-file-name="user.ex" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/models/user.ex">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="4" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+            <state relative-caret-position="396">
+              <caret line="28" column="89" lean-forward="false" selection-start-line="28" selection-start-column="89" selection-end-line="28" selection-end-column="89" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.eex" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/templates/post/index.html.eex">
+      <file leaf-file-name="seeds.exs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/priv/repo/seeds.exs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="23" column="62" lean-forward="false" selection-start-line="23" selection-start-column="62" selection-end-line="23" selection-end-column="62" />
+            <state relative-caret-position="162">
+              <caret line="9" column="23" lean-forward="false" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.html.eex" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/templates/post/show.html.eex">
+      <file leaf-file-name="role.ex" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/models/role.ex">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="60" lean-forward="false" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
+            <state relative-caret-position="126">
+              <caret line="7" column="32" lean-forward="false" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="new.html.eex" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/templates/post/new.html.eex">
+      <file leaf-file-name="20180223101728_add_role_id_to_users.exs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/priv/repo/migrations/20180223101728_add_role_id_to_users.exs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="60" lean-forward="false" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
+            <state relative-caret-position="126">
+              <caret line="7" column="36" lean-forward="true" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="edit.html.eex" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/templates/post/edit.html.eex">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="60" lean-forward="false" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
+            <state relative-caret-position="450">
+              <caret line="25" column="6" lean-forward="true" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -278,7 +199,11 @@
         <option value="$PROJECT_DIR$/web/controllers/post_controller.ex" />
         <option value="$PROJECT_DIR$/priv/repo/migrations/20180223093707_add_user_id_to_posts.exs" />
         <option value="$PROJECT_DIR$/web/models/post.ex" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/web/models/role.ex" />
+        <option value="$PROJECT_DIR$/priv/repo/migrations/20180223101728_add_role_id_to_users.exs" />
         <option value="$PROJECT_DIR$/web/models/user.ex" />
+        <option value="$PROJECT_DIR$/priv/repo/seeds.exs" />
       </list>
     </option>
   </component>
@@ -358,63 +283,6 @@
               <item name="priv" type="462c0819:PsiDirectoryNode" />
               <item name="repo" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="pxblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pxblog" type="462c0819:PsiDirectoryNode" />
-              <item name="priv" type="462c0819:PsiDirectoryNode" />
-              <item name="repo" type="462c0819:PsiDirectoryNode" />
-              <item name="migrations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pxblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pxblog" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pxblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pxblog" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pxblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pxblog" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pxblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pxblog" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pxblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pxblog" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="layout" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pxblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pxblog" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="page" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pxblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pxblog" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="post" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pxblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pxblog" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -469,15 +337,16 @@
       <workItem from="1519291934680" duration="36000" />
       <workItem from="1519292000020" duration="4659000" />
       <workItem from="1519298982806" duration="5597000" />
-      <workItem from="1519378192453" duration="2522000" />
+      <workItem from="1519378192453" duration="3045000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12814000" />
+    <option name="totallyTimeSpent" value="13337000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1415" y="-4" width="1871" height="1084" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18211739" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -487,7 +356,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="1.0" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33333334" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -512,38 +381,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/views/user_view.ex">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/controllers/session_controller.ex">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="40" lean-forward="false" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/templates/session/form.html.eex">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="25" column="9" lean-forward="false" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/templates/user/form.html.eex">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="25" lean-forward="false" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/views/layout_view.ex">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -885,10 +722,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="25" column="6" lean-forward="true" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/models/role.ex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="32" lean-forward="false" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/priv/repo/migrations/20180223101728_add_role_id_to_users.exs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="36" lean-forward="true" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/models/user.ex">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="4" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        <state relative-caret-position="396">
+          <caret line="28" column="89" lean-forward="false" selection-start-line="28" selection-start-column="89" selection-end-line="28" selection-end-column="89" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/priv/repo/seeds.exs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="23" lean-forward="false" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
           <folding />
         </state>
       </provider>
