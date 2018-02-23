@@ -179,8 +179,8 @@
     </role>
     <schema id="57" parent="2" name="public">
       <ObjectId>2200</ObjectId>
-      <IntrospectionTimestamp>2018-02-22.12:32:56.454</IntrospectionTimestamp>
-      <IntrospectionStateNumber>31024</IntrospectionStateNumber>
+      <IntrospectionTimestamp>2018-02-23.12:43:04.709</IntrospectionTimestamp>
+      <IntrospectionStateNumber>31029</IntrospectionStateNumber>
       <Current>1</Current>
       <Visible>1</Visible>
     </schema>
@@ -199,33 +199,44 @@
     <schema id="62" parent="2" name="information_schema">
       <ObjectId>12121</ObjectId>
     </schema>
-    <sequence id="63" parent="57" name="posts_id_seq">
+    <sequence id="63" parent="57" name="roles_id_seq">
+      <ObjectId>87142</ObjectId>
+      <StateNumber>31028</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+      <CacheSize>1</CacheSize>
+    </sequence>
+    <sequence id="64" parent="57" name="posts_id_seq">
       <ObjectId>78950</ObjectId>
       <StateNumber>31023</StateNumber>
       <SequenceIdentity>1</SequenceIdentity>
       <BelongsToColumn>1</BelongsToColumn>
       <CacheSize>1</CacheSize>
     </sequence>
-    <sequence id="64" parent="57" name="users_id_seq">
+    <sequence id="65" parent="57" name="users_id_seq">
       <ObjectId>78961</ObjectId>
       <StateNumber>31024</StateNumber>
       <SequenceIdentity>1</SequenceIdentity>
       <BelongsToColumn>1</BelongsToColumn>
       <CacheSize>1</CacheSize>
     </sequence>
-    <table id="65" parent="57" name="posts">
+    <table id="66" parent="57" name="posts">
       <ObjectId>78952</ObjectId>
-      <StateNumber>31023</StateNumber>
+      <StateNumber>31027</StateNumber>
     </table>
-    <table id="66" parent="57" name="schema_migrations">
+    <table id="67" parent="57" name="roles">
+      <ObjectId>87144</ObjectId>
+      <StateNumber>31029</StateNumber>
+    </table>
+    <table id="68" parent="57" name="schema_migrations">
       <ObjectId>78945</ObjectId>
       <StateNumber>31022</StateNumber>
     </table>
-    <table id="67" parent="57" name="users">
+    <table id="69" parent="57" name="users">
       <ObjectId>78963</ObjectId>
-      <StateNumber>31024</StateNumber>
+      <StateNumber>31029</StateNumber>
     </table>
-    <column id="68" parent="65" name="id">
+    <column id="70" parent="66" name="id">
       <Position>1</Position>
       <DataType>bigint|0</DataType>
       <NotNull>1</NotNull>
@@ -234,68 +245,135 @@
       <TypeId>20</TypeId>
       <SequenceName>posts_id_seq</SequenceName>
     </column>
-    <column id="69" parent="65" name="title">
+    <column id="71" parent="66" name="title">
       <Position>2</Position>
       <DataType>varchar(255)|0</DataType>
       <StateNumber>31023</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="70" parent="65" name="body">
+    <column id="72" parent="66" name="body">
       <Position>3</Position>
       <DataType>text|0</DataType>
       <StateNumber>31023</StateNumber>
       <TypeId>25</TypeId>
     </column>
-    <column id="71" parent="65" name="inserted_at">
+    <column id="73" parent="66" name="inserted_at">
       <Position>4</Position>
       <DataType>timestamp|0</DataType>
       <NotNull>1</NotNull>
       <StateNumber>31023</StateNumber>
       <TypeId>1114</TypeId>
     </column>
-    <column id="72" parent="65" name="updated_at">
+    <column id="74" parent="66" name="updated_at">
       <Position>5</Position>
       <DataType>timestamp|0</DataType>
       <NotNull>1</NotNull>
       <StateNumber>31023</StateNumber>
       <TypeId>1114</TypeId>
     </column>
-    <index id="73" parent="65" name="posts_pkey">
+    <column id="75" parent="66" name="user_id">
+      <Position>6</Position>
+      <DataType>bigint|0</DataType>
+      <StateNumber>31027</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <index id="76" parent="66" name="posts_pkey">
       <ObjectId>78959</ObjectId>
       <ColNames>id</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="74" parent="65" name="posts_pkey">
+    <index id="77" parent="66" name="posts_user_id_index">
+      <ObjectId>87141</ObjectId>
+      <ColNames>user_id</ColNames>
+    </index>
+    <key id="78" parent="66" name="posts_pkey">
       <ObjectId>78960</ObjectId>
       <ColNames>id</ColNames>
       <UnderlyingIndexName>posts_pkey</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
-    <column id="75" parent="66" name="version">
+    <foreign-key id="79" parent="66" name="posts_user_id_fkey">
+      <ObjectId>87136</ObjectId>
+      <ColNames>user_id</ColNames>
+      <RefTableId>78963</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>users</RefTableName>
+      <RefKeyName>users_pkey</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="80" parent="67" name="id">
+      <Position>1</Position>
+      <DataType>bigint|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>31028</StateNumber>
+      <DefaultExpression>nextval(&apos;roles_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>20</TypeId>
+      <SequenceName>roles_id_seq</SequenceName>
+    </column>
+    <column id="81" parent="67" name="name">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+      <StateNumber>31028</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="82" parent="67" name="admin">
+      <Position>3</Position>
+      <DataType>boolean|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>31028</StateNumber>
+      <DefaultExpression>false</DefaultExpression>
+      <TypeId>16</TypeId>
+    </column>
+    <column id="83" parent="67" name="inserted_at">
+      <Position>4</Position>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>31028</StateNumber>
+      <TypeId>1114</TypeId>
+    </column>
+    <column id="84" parent="67" name="updated_at">
+      <Position>5</Position>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>31028</StateNumber>
+      <TypeId>1114</TypeId>
+    </column>
+    <index id="85" parent="67" name="roles_pkey">
+      <ObjectId>87149</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="86" parent="67" name="roles_pkey">
+      <ObjectId>87150</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>roles_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="87" parent="68" name="version">
       <Position>1</Position>
       <DataType>bigint|0</DataType>
       <NotNull>1</NotNull>
       <StateNumber>31022</StateNumber>
       <TypeId>20</TypeId>
     </column>
-    <column id="76" parent="66" name="inserted_at">
+    <column id="88" parent="68" name="inserted_at">
       <Position>2</Position>
       <DataType>timestamp|0</DataType>
       <StateNumber>31022</StateNumber>
       <TypeId>1114</TypeId>
     </column>
-    <index id="77" parent="66" name="schema_migrations_pkey">
+    <index id="89" parent="68" name="schema_migrations_pkey">
       <ObjectId>78948</ObjectId>
       <ColNames>version</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="78" parent="66" name="schema_migrations_pkey">
+    <key id="90" parent="68" name="schema_migrations_pkey">
       <ObjectId>78949</ObjectId>
       <ColNames>version</ColNames>
       <UnderlyingIndexName>schema_migrations_pkey</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
-    <column id="79" parent="67" name="id">
+    <column id="91" parent="69" name="id">
       <Position>1</Position>
       <DataType>bigint|0</DataType>
       <NotNull>1</NotNull>
@@ -304,48 +382,67 @@
       <TypeId>20</TypeId>
       <SequenceName>users_id_seq</SequenceName>
     </column>
-    <column id="80" parent="67" name="username">
+    <column id="92" parent="69" name="username">
       <Position>2</Position>
       <DataType>varchar(255)|0</DataType>
       <StateNumber>31024</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="81" parent="67" name="email">
+    <column id="93" parent="69" name="email">
       <Position>3</Position>
       <DataType>varchar(255)|0</DataType>
       <StateNumber>31024</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="82" parent="67" name="password_digest">
+    <column id="94" parent="69" name="password_digest">
       <Position>4</Position>
       <DataType>varchar(255)|0</DataType>
       <StateNumber>31024</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="83" parent="67" name="inserted_at">
+    <column id="95" parent="69" name="inserted_at">
       <Position>5</Position>
       <DataType>timestamp|0</DataType>
       <NotNull>1</NotNull>
       <StateNumber>31024</StateNumber>
       <TypeId>1114</TypeId>
     </column>
-    <column id="84" parent="67" name="updated_at">
+    <column id="96" parent="69" name="updated_at">
       <Position>6</Position>
       <DataType>timestamp|0</DataType>
       <NotNull>1</NotNull>
       <StateNumber>31024</StateNumber>
       <TypeId>1114</TypeId>
     </column>
-    <index id="85" parent="67" name="users_pkey">
+    <column id="97" parent="69" name="role_id">
+      <Position>7</Position>
+      <DataType>bigint|0</DataType>
+      <StateNumber>31029</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <index id="98" parent="69" name="users_pkey">
       <ObjectId>78970</ObjectId>
       <ColNames>id</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="86" parent="67" name="users_pkey">
+    <index id="99" parent="69" name="users_role_id_index">
+      <ObjectId>87156</ObjectId>
+      <ColNames>role_id</ColNames>
+    </index>
+    <key id="100" parent="69" name="users_pkey">
       <ObjectId>78971</ObjectId>
       <ColNames>id</ColNames>
       <UnderlyingIndexName>users_pkey</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
+    <foreign-key id="101" parent="69" name="users_role_id_fkey">
+      <ObjectId>87151</ObjectId>
+      <ColNames>role_id</ColNames>
+      <RefTableId>87144</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>roles</RefTableName>
+      <RefKeyName>roles_pkey</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
   </database-model>
 </dataSource>
